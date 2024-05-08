@@ -31,8 +31,9 @@ const Style = () => {
     
     /* 设置了导航栏透明毛玻璃效果 */
     #sticky-nav {  
-        background: rgba(255, 255, 255, 0.5); /* 半透明背景 */  
-       backdrop-filter: blur(5px); /* 毛玻璃效果，10px是模糊半径 */  
+        background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+       backdrop-filter: blur(5px); /* 毛玻璃效果，10px是模糊半径 */
+       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* 水平偏移 垂直偏移 模糊半径 阴影颜色 */
     }
 
     /* 设置了从上到下的渐变黑色 */
