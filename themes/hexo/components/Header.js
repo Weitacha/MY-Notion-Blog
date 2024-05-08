@@ -81,6 +81,7 @@ const Header = props => {
       }
 
       // 导航栏不在头图里，且页面向下滚动一定程度 隐藏导航栏
+      /*
       const showNav =
         scrollS <= windowTop ||
         scrollS < 5 ||
@@ -92,6 +93,7 @@ const Header = props => {
         nav && nav.classList.replace('-top-20', 'top-0')
         windowTop = scrollS
       }
+      */
     }, throttleMs)
   )
 
