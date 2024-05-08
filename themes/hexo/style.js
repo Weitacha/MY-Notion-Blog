@@ -28,6 +28,12 @@ const Style = () => {
         background-size: 100% 2px;
         color: #928CEE;
     }
+    
+    /* 设置了导航栏透明毛玻璃效果 */
+    #sticky-nav {  
+        background: rgba(255, 255, 255, 0.2); /* 半透明背景 */  
+       backdrop-filter: blur(10px); /* 毛玻璃效果，10px是模糊半径 */  
+    }
 
     /* 设置了从上到下的渐变黑色 */
     #theme-hexo .header-cover::before {
